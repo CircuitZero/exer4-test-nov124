@@ -2,7 +2,8 @@ name: buildfork
 on:
   push:
     branches:
-      -main
+      - main
+      - featureX
   
 jobs:
   build:
